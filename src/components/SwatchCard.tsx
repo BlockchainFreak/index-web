@@ -28,7 +28,7 @@ export default function CardGradient({ title, description }: CardGradientProps) 
                 {title}
             </Text>
             <Text size="sm" mt="sm" color="dimmed">
-                {description.split('\n').map(line => <p>{line}</p>)}
+                {description.split('\n').map((line,i) => <p key={i}>{line}</p>)}
             </Text>
         </Paper>
     );

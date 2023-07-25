@@ -54,13 +54,13 @@ export default function Home() {
         }
       </Grid>
       <Flex className="justify-center gap-4">
-        <Title order={1} align="center">"EVERYTHING IS</Title>
+        <Title order={1} align="center">{`"`}EVERYTHING IS</Title>
         <Title order={1} color="teal.7">DESIGNED</Title>
       </Flex>
       <Flex className="justify-center gap-4">
         <Title order={1}>BUT NOT EVERYTHING IS</Title>
         <Title order={1} color="teal.7">DESIGNED</Title>
-        <Title order={1}>WELL"</Title>
+        <Title order={1}>WELL{`"`}</Title>
       </Flex>
       <Grid>
         {focus.map((focus, i) => (
